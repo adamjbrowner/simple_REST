@@ -1,0 +1,20 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "firebase/php-jwt": "^5.2",
+        "guzzlehttp/guzzle": "^7.3",
+        "phpmailer/phpmailer": "^6.5",
+        "twilio/sdk": "^6.28",
+        "vonage/client": "^3.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Rest\\Core\\": "core/",
+            "Rest\\Core\\Routing\\": "core/routing/",
+            "Rest\\Core\\Routing\\Middleware\\": "core/routing/middleware/",
+            "Rest\\Controllers\\": "controllers/",
+            "Rest\\Models\\": "models/"
+        }
+    }
+}
